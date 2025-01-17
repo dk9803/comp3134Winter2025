@@ -1,0 +1,31 @@
+ipinfo
+
+1) airindia 104.123.69.81
+Akamai Technologies, Inc.
+Location	San Jose, California, United States of America
+AS	AS20940
+AS name	Akamai International B.V.
+
+
+2)apple 17.253.144.10
+Apple Inc.
+Location	Cupertino, California, United States of America
+AS	AS714
+AS name	Apple Inc.
+
+3) zara 69.192.139.107
+Location	Santa Clara, California, United States of America
+AS	AS20940
+AS name	Akamai International B.V.
+
+4)facebook 157.240.22.35
+Facebook, Inc.
+Location	Santa Clara, California, United States of America
+AS	AS32934
+AS name	Facebook, Inc.
+
+5) farmboy 141.193.213.20
+WPEngine, Inc.
+Location	Berlin, Berlin, Germany
+AS	AS209242
+AS name	Cloudflare London, LLC

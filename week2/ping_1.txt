@@ -1,0 +1,12 @@
+ping_2
+
+
+root@Comp3134Winter2025:~# ping 142.93.144.14 -w 2
+PING 142.93.144.14 (142.93.144.14) 56(84) bytes of data.
+64 bytes from 142.93.144.14: icmp_seq=1 ttl=64 time=0.041 ms
+64 bytes from 142.93.144.14: icmp_seq=2 ttl=64 time=0.064 ms
+
+--- 142.93.144.14 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1031ms
+rtt min/avg/max/mdev = 0.041/0.052/0.064/0.011 ms
+root@Comp3134Winter2025:~#

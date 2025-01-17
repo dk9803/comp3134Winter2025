@@ -1,0 +1,9 @@
+traceroute_2
+
+
+root@Comp3134Winter2025:~# tracert 142.93.144.14
+Command 'tracert' not found, did you mean:
+  command 'tracert6' from deb ndisc6 (1.0.4-2ubuntu2)
+  command 'tracer' from deb pvm-dev (3.4.6-3.2)
+Try: apt install <deb name>
+root@Comp3134Winter2025:~#

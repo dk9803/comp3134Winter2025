@@ -1,0 +1,52 @@
+traceroute_1
+
+root@Comp3134Winter2025:~# apt-get install traceroute
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  traceroute
+0 upgraded, 1 newly installed, 0 to remove and 92 not upgraded.
+Need to get 45.4 kB of archives.
+After this operation, 152 kB of additional disk space will be used.
+Get:1 http://mirrors.digitalocean.com/ubuntu jammy/universe amd64 traceroute amd64 1:2.1.0-2 [45.4 kB]
+Fetched 45.4 kB in 0s (471 kB/s)
+Selecting previously unselected package traceroute.
+(Reading database ... 97427 files and directories currently installed.)
+Preparing to unpack .../traceroute_1%3a2.1.0-2_amd64.deb ...
+Unpacking traceroute (1:2.1.0-2) ...
+Setting up traceroute (1:2.1.0-2) ...
+update-alternatives: using /usr/bin/traceroute.db to provide /usr/bin/traceroute (traceroute) in auto mode
+update-alternatives: using /usr/bin/traceroute6.db to provide /usr/bin/traceroute6 (traceroute6) in auto mode
+update-alternatives: using /usr/bin/lft.db to provide /usr/bin/lft (lft) in auto mode
+update-alternatives: using /usr/bin/traceproto.db to provide /usr/bin/traceproto (traceproto) in auto mode
+update-alternatives: using /usr/sbin/tcptraceroute.db to provide /usr/sbin/tcptraceroute (tcptraceroute) in auto mode
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...
+Scanning candidates...
+Scanning linux images...
+
+
+Restarting services...
+ /etc/needrestart/restart.d/systemd-manager
+ systemctl restart apache2.service cron.service multipathd.service mysql.service packagekit.service polkit.service postfix@-.service rsyslog.service serial-getty@ttyS0.service ssh.service systemd-journald.service systemd-networkd.service systemd-resolved.service systemd-timesyncd.service systemd-udevd.service
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+ systemctl restart user@0.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+root@Comp3134Winter2025:~# traceroute {host_name}
+{host_name}: Name or service not known
+Cannot handle "host" cmdline arg `{host_name}' on position 1 (argc 1)
+root@Comp3134Winter2025:~# traceroute 142.93.144.14
+traceroute to 142.93.144.14 (142.93.144.14), 30 hops max, 60 byte packets
+ 1  Comp3134Winter2025 (142.93.144.14)  0.226 ms  0.014 ms  0.011 ms
+root@Comp3134Winter2025:~#

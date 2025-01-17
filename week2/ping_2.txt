@@ -1,0 +1,25 @@
+ping_2
+
+
+root@Comp3134Winter2025:~# ping 142.93.144.14
+PING 142.93.144.14 (142.93.144.14) 56(84) bytes of data.
+64 bytes from 142.93.144.14: icmp_seq=1 ttl=64 time=0.034 ms
+64 bytes from 142.93.144.14: icmp_seq=2 ttl=64 time=0.080 ms
+64 bytes from 142.93.144.14: icmp_seq=3 ttl=64 time=0.066 ms
+64 bytes from 142.93.144.14: icmp_seq=4 ttl=64 time=0.067 ms
+64 bytes from 142.93.144.14: icmp_seq=5 ttl=64 time=0.063 ms
+64 bytes from 142.93.144.14: icmp_seq=6 ttl=64 time=0.074 ms
+^C
+--- 142.93.144.14 ping statistics ---
+6 packets transmitted, 6 received, 0% packet loss, time 5102ms
+rtt min/avg/max/mdev = 0.034/0.064/0.080/0.014 ms
+root@Comp3134Winter2025:~# ping 142.93.144.14 -w 2
+PING 142.93.144.14 (142.93.144.14) 56(84) bytes of data.
+64 bytes from 142.93.144.14: icmp_seq=1 ttl=64 time=0.035 ms
+64 bytes from 142.93.144.14: icmp_seq=2 ttl=64 time=0.055 ms
+
+--- 142.93.144.14 ping statistics ---
+2 packets transmitted, 2 received, 0% packet loss, time 1002ms
+rtt min/avg/max/mdev = 0.035/0.045/0.055/0.010 ms
+root@Comp3134Winter2025:~#
+
